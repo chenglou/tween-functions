@@ -1,6 +1,6 @@
 {
   "name": "tween-functions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Robert Penner's easing functions, slightly modified",
   "main": "index.js",
   "scripts": {

@@ -253,5 +253,3 @@ var tweenFunctions = {
 };
 
 module.exports = tweenFunctions;
-
-console.log(tweenFunctions.easeInOutQuad(1, 0, 50, 5));
