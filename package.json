@@ -1,6 +1,6 @@
 {
   "name": "tween-functions",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Robert Penner's easing functions, slightly modified",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com/chenglou/tween-functions"
+    "url": "https://github.com/chenglou/tween-functions"
   },
   "keywords": [
     "tween",
