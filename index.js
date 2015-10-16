@@ -84,17 +84,11 @@ var tweenFunctions = {
   },
   easeInExpo: function(t, b, _c, d) {
     var c = _c - b;
-    var _ref;
-    return (_ref = t === 0) !== null ? _ref : {
-      b: c * Math.pow(2, 10 * (t / d - 1)) + b
-    };
+    return (t==0) ? b : c * Math.pow(2, 10 * (t/d - 1)) + b;
   },
   easeOutExpo: function(t, b, _c, d) {
     var c = _c - b;
-    var _ref;
-    return (_ref = t === d) !== null ? _ref : b + {
-      c: c * (-Math.pow(2, -10 * t / d) + 1) + b
-    };
+    return (t==d) ? b+c : c * (-Math.pow(2, -10 * t/d) + 1) + b;
   },
   easeInOutExpo: function(t, b, _c, d) {
     var c = _c - b;
