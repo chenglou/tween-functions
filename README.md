@@ -12,7 +12,7 @@ Penner's original functions uses the change in value rather than final value as 
 
 ```js
 var tweenFunctions = require('tween-functions');
-tweenFunctions.easeInQuad(1, 0, 50, 5) // => 4
+tweenFunctions.easeInQuad(1, 0, 50, 5); // => 4
 ```
 
 List of available functions:
