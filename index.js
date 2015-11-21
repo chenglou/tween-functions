@@ -93,10 +93,10 @@ var tweenFunctions = {
   easeInOutExpo: function(t, b, _c, d) {
     var c = _c - b;
     if (t === 0) {
-      b;
+      return b;
     }
     if (t === d) {
-      b + c;
+      return b + c;
     }
     if ((t /= d / 2) < 1) {
       return c / 2 * Math.pow(2, 10 * (t - 1)) + b;
@@ -127,9 +127,9 @@ var tweenFunctions = {
     p = 0;
     a = c;
     if (t === 0) {
-      b;
+      return b;
     } else if ((t /= d) === 1) {
-      b + c;
+      return b + c;
     }
     if (!p) {
       p = d * 0.3;
@@ -149,9 +149,9 @@ var tweenFunctions = {
     p = 0;
     a = c;
     if (t === 0) {
-      b;
+      return b;
     } else if ((t /= d) === 1) {
-      b + c;
+      return b + c;
     }
     if (!p) {
       p = d * 0.3;
@@ -171,9 +171,9 @@ var tweenFunctions = {
     p = 0;
     a = c;
     if (t === 0) {
-      b;
+      return b;
     } else if ((t /= d / 2) === 2) {
-      b + c;
+      return b + c;
     }
     if (!p) {
       p = d * (0.3 * 1.5);
